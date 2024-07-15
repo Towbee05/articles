@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <link rel="shortcut icon" href="/images/favicon-32x32.png " type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./dict/output.css">
+</head>
+<body class="bg-light-greyish-blue">
+    <main class="min-h-screen flex justify-center items-center w-ful text-default font-default-family p-6 ">
+        <div class="max-w-[375px] xs:grid grid-cols-custom-grid xs:max-w-[750px] overall-container relative">
+            <div>
+                <img src="/images/drawers.jpg" alt="drawers" class="rounded-t-custom-border w-full h-full xs:rounded-tr-none xs:rounded-l-custom-border">
+            </div>
+            <div class="bg-white pt-8 space-y-8 rounded-b-custom-border xs:rounded-bl-none xs:rounded-r-custom-border ">
+                <div class="flex gap-3 flex-col px-8">
+                    <h1 class="text-dark-greyish-blue text-base font-bold">
+                        Shift the overall look and feel by adding these wonderful touches to furniture in your home
+                    </h1>
+                    <p class="text-dark-blue font-medium tracking-[0.12px]">
+                        Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
+                    </p>
+                </div>
+                <div class="flex h-auto justify-between">
+                    <div class="flex gap-4 px-8 pb-5 container-1">
+                        <img src="/images/avatar-michelle.jpg" alt="avatar" class="rounded-full w-10">
+                        <p>
+                            <span class="block text-dark-greyish-blue font-bold">
+                                Michelle Appleton
+                            </span>
+                            <span class="block text-greyish-blue font-medium">
+                                28 Jun 2020
+                            </span>
+                        </p>
+                    </div>
+                    <!-- Hover effect -->
+                    <div class="hidden container-2 
+                    flex xs:hidden xs:flex-col justify-center items-center xs:absolute xs:top-[100px] -right-[72px] ">
+                        <div class="flex gap-[22px] py-[22px] px-8 xs:bg-dark-greyish-blue xs:rounded-custom-border">
+                            <p class="uppercase text-greyish-blue tracking-[5px]"> share </p>
+                            <article>
+                                <ul class="grid grid-cols-3 gap-4">
+                                    <li>
+                                        <a href="#"> <img src="/images/icon-facebook.svg" alt="facebook"> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <img src="/images/icon-twitter.svg" alt="twitter"> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <img src="/images/icon-pinterest.svg" alt="pinterest"> </a>
+                                    </li>
+                                </ul>
+                            </article>
+                        </div>
+                        <div class=" hidden w-0 border-x-[24px] border-b-[24px] h-0 border-t-0 border-x-transparent border-b-dark-greyish-blue rotate-180 -mt-1 xs:block"></div>
+                    </div>
+                    <!-- End of hover effect -->
+                    <button class="bg-light-greyish-blue w-8 h-8 rounded-full flex justify-center items-center self-center btn mr-8 mb-5">
+                        <img src="/images/icon-share.svg" alt="share">
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
